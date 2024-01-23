@@ -12,4 +12,9 @@ It's important to note that the project might have
 some issues, and the model's accuracy might not 
 be perfect right now.
 
-We
+to try the project open this python program : "image to text.py"
+then replace the path in  this code img = cv2.imread(r"C:\Users\User\Desktop\Artificial intelligence\Machine learning\Deep learning\Image topic classification\image exp\site-ad-bb-ball-2022_orig.jpg")
+into the path of your image 
+
+put the class program "text_cleaner.py" in the same file of the program  "image to text.py" 
+don't forget to install libraries of the class program  "text_cleaner.py" and libraries of "image to text.py" before you run the code 
