@@ -19,7 +19,6 @@ pytesseract.pytesseract.tesseract_cmd=r"C:\Program Files\Tesseract-OCR\tesseract
 #image that you want to convert it into text
 img = cv2.imread(r"C:\Users\User\Desktop\Artificial intelligence\Machine learning\Deep learning\Image topic classification\image exp\site-ad-bb-ball-2022_orig.jpg")
 txt = pytesseract.image_to_string(img)
-txt="Wall St. Weighs the Effect of Weaker China and Stronger U.S.Investors are worried about the Chinese economy teetering as well as signs that the U.S. economy may be growing too fast for inflation to moderate."
 print("\n")
 print("text:",txt)
 
